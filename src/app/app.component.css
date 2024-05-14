@@ -1,0 +1,26 @@
+div {
+    display: flex;
+    width: 100%;
+    gap: 2em;
+    height: 8em;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    gap: 2em;
+}
+
+.class1 img {
+    filter: brightness(1);
+    animation: brightnessChange 0.2s ease forwards ;
+}
+
+@keyframes brightnessChange {
+    0% {
+        filter: brightness(1);
+    }
+    100% {
+        filter: brightness(0.1);
+    }
+}
